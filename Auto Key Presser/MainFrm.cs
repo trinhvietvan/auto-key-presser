@@ -32,9 +32,9 @@ namespace Auto_Key_Presser
         public MainFrm()
         {
             InitializeComponent();
-            ghk = new KeyHandler(Constants.CTRL, Keys.O, this);
+            ghk = new KeyHandler(Constants.SHIFT, Keys.F, this);
             ghk.Register();
-            MaxProgressLbl.Text = (Interval / 1000).ToString() + "s";
+            MaxProgressLbl.Text = (Interval / 1000) + "s";
         }
         public void DoLeftMouseClick()
         {

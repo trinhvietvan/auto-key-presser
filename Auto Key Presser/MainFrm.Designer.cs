@@ -113,7 +113,7 @@
             this.IntervalSaveBtn.Name = "IntervalSaveBtn";
             this.IntervalSaveBtn.Size = new System.Drawing.Size(85, 32);
             this.IntervalSaveBtn.TabIndex = 3;
-            this.IntervalSaveBtn.Text = "Save";
+            this.IntervalSaveBtn.Text = "Apply";
             this.IntervalSaveBtn.UseVisualStyleBackColor = true;
             this.IntervalSaveBtn.Click += new System.EventHandler(this.IntervalSaveBtn_Click);
             // 
@@ -123,7 +123,7 @@
             this.OffsetTxtBox.Name = "OffsetTxtBox";
             this.OffsetTxtBox.Size = new System.Drawing.Size(71, 20);
             this.OffsetTxtBox.TabIndex = 2;
-            this.OffsetTxtBox.Text = "0";
+            this.OffsetTxtBox.Text = "250";
             this.toolTip1.SetToolTip(this.OffsetTxtBox, "A random offset in milliseconds between 0 and your offset that gets added on to y" +
         "our total interval. Use this in games and applications if you are woried about b" +
         "eing detected for botting.");
@@ -256,7 +256,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(95, 13);
             this.label6.TabIndex = 6;
-            this.label6.Text = "Hotkey: CRTL + O";
+            this.label6.Text = "Hotkey: SHIFT + F";
             // 
             // label7
             // 
@@ -297,7 +297,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainFrm";
-            this.Text = "Auto Key Presser";
+            this.Text = "PC Health Check";
             this.IntervalPanel.ResumeLayout(false);
             this.IntervalPanel.PerformLayout();
             this.PressTypePanel.ResumeLayout(false);
